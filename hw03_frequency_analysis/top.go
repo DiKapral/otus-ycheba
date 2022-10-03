@@ -36,8 +36,8 @@ func Top10(str string) []string {
 		return sortStruct[i].Val > sortStruct[j].Val
 	})
 
-	if len(sortStruct) > 10 {
-		sortStruct = sortStruct[0:10]
+	if len(sortStruct) > 20 {
+		sortStruct = sortStruct[0:20]
 	} else {
 		sortStruct = sortStruct[0:]
 	}
